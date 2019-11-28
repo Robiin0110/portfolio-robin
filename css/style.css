@@ -44,7 +44,7 @@ img {
 }
 a {
   color: #096D94;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:visited {
   color: #000000;
@@ -52,7 +52,7 @@ a:visited {
 a:hover,
 a:focus {
   color: #A5A5A5
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:active {
   color: #096D94;
