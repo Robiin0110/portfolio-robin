@@ -46,12 +46,13 @@ a {
   color: #096D94;
   text-decoration: none;
 }
-a:hover {
-  color: #A5A5A5
-  text-decoration: underline;
-}
 a:visited {
   color: #000000;
+}
+a:hover,
+a:focus {
+  color: #A5A5A5
+  text-decoration: underline;
 }
 a:active {
   color: #096D94;
