@@ -57,3 +57,19 @@ a:focus {
 a:active {
   color: #096D94;
 }
+.button {
+  display: inline-block;
+  background-color: #096D94;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #096D94;
+  transition: 0.2s opacity;
+  text-decoration: none;
+}
+.button:hover,
+.button:active {
+  opacity: 0.8;
+  text-decoration: none;
+}
