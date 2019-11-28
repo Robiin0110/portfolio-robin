@@ -57,6 +57,9 @@ a:focus {
 a:active {
   color: #096D94;
 }
+header {
+  background-color: #DDDDDD;
+}
 .button {
   display: inline-block;
   background-color: #096D94;
