@@ -76,3 +76,8 @@ a:active {
 .button:visited {
   color: #FFFFFF
 }
+.button.contact {
+  background-color: transarent;
+  color: #096D94;
+  border: 2px solid #096D94;
+}
