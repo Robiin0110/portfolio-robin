@@ -59,6 +59,8 @@ a:active {
 }
 header {
   background-color: #DDDDDD;
+  padding: 10px;
+  margin: 10px;
 }
 .button {
   display: inline-block;
