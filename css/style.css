@@ -63,6 +63,9 @@ header {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  box-shadow: 7px 7px 21px 0px rgba(50, 50, 69, 0.47);
+  position: fixed;
+  width: 100%;
 }
 .button {
   display: inline-block;
@@ -109,9 +112,6 @@ header {
 #hero h1 {
   text-align: center;
 }
-#hero {
-  background-color: #DDDDDD; 
-}
 .logo {
   max-width: 250px;
 }
@@ -138,4 +138,13 @@ nav > ul > li > a:hover,
 nav > ul > li > a:active {
   opacity: 0.8;
   color: #096D94;
+}
+#hero {
+  background-color: #DDDDDD;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 170px;
 }
