@@ -112,7 +112,27 @@ header {
 .logo {
   max-width: 250px;
 }
+nav {
+  display: inline-block;
+  width: 100%;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: bold;
+  font-weight: 700;
+  color: #096D94;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  opacity: 0.8;
+  color: #096D94;
 }
