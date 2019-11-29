@@ -93,3 +93,8 @@ header {
 #contact a {
   text-decoration: none;
 }
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
