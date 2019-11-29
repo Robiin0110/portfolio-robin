@@ -60,8 +60,6 @@ a:active {
 }
 header {
   background-color: #DDDDDD;
-  padding: 10px;
-  margin: 10px;
   text-align: center;
   box-shadow: 7px 7px 21px 0px rgba(50, 50, 69, 0.47);
   position: fixed;
@@ -139,6 +137,9 @@ nav > ul > li > a:active {
   opacity: 0.8;
   color: #096D94;
 }
+nav > ul > li > a:visited {
+  color: #096D94;
+}
 #hero {
   background-color: #DDDDDD;
   padding: 20px 0;
@@ -146,5 +147,5 @@ nav > ul > li > a:active {
   width: 100%;
 }
 main {
-  padding-top: 170px;
+  padding-top: 140px;
 }
