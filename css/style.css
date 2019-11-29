@@ -109,6 +109,9 @@ header {
 #hero h1 {
   text-align: center;
 }
+#hero {
+  background-color: #DDDDDD; 
+}
 .logo {
   max-width: 250px;
 }
