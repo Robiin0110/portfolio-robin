@@ -197,6 +197,9 @@ main {
 footer {
   background-color: #DDDDDD;
 }
+.bottomfooter {
+  margin-bottom: 0px;
+}
 
 
 /* Responsiveness */
