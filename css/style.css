@@ -9,6 +9,12 @@ Contrast Color (White): #FFFFFF;
 */
 
 
+/* Overall Settings */
+* {
+  box-sizing: border-box;
+}
+
+
 /* Basic Body Settings */
   body {
   background-color: #FFFFFF;
@@ -45,9 +51,6 @@ h4 {
 
 
 /* Image Settings */
-* {
-  box-sizing: border-box;
-}
 img {
   width: 100%;
 }
@@ -163,6 +166,7 @@ nav > ul > li > a:visited {
 }
 main {
   padding-top: 160px;
+  padding-bottom: 60px;
 }
 
 
@@ -185,4 +189,7 @@ main {
 }
 #contact a {
   text-decoration: none;
+}
+footer {
+  background-color: #DDDDDD;
 }
