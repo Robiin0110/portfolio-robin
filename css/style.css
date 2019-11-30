@@ -12,7 +12,6 @@ Contrast Color (White): #FFFFFF;
 /* Overall Settings */
 * {
   box-sizing: border-box;
-  padding-right: 20px;
 }
 
 
@@ -112,6 +111,7 @@ header {
   box-shadow: 7px 7px 21px 0px rgba(50, 50, 69, 0.47);
   position: fixed;
   width: 100%;
+  z-index: 44;
 }
 .logo {
   max-width: 200px;
@@ -224,6 +224,17 @@ footer {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 60%;
+  }
+  .col-lg-5 {
+    width: 40%;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (min-width: 1440px) {
 }
