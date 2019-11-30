@@ -12,6 +12,7 @@ Contrast Color (White): #FFFFFF;
 /* Overall Settings */
 * {
   box-sizing: border-box;
+  padding-right: 20px;
 }
 
 
@@ -176,6 +177,9 @@ main {
 }
 .row {
   margin: 25px 0;
+  content: "";
+  clear: both;
+  display: table;
 }
 #work .row {
   padding-bottom: 35px;
@@ -211,6 +215,12 @@ footer {
   }
   body {
     font-size: 18px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+  float: left;
   }
 }
 @media only screen and (min-width: 1024px) {
