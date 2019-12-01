@@ -85,7 +85,7 @@ a:active {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #096D94;
-  transition: 0.2s;
+  transition: 0.2s opacity;
   text-decoration: none;
 }
 .button:hover,
