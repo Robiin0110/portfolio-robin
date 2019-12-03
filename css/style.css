@@ -179,7 +179,9 @@ main {
   margin: 25px 0;
   content: "";
   clear: both;
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #work .row {
   padding-bottom: 35px;
