@@ -107,11 +107,11 @@ a:active {
 /* Header Settings */
 header {
   background-color: #FFFFFF;
-  text-align: center;
   box-shadow: 7px 7px 21px 0px rgba(50, 50, 69, 0.47);
   position: fixed;
   width: 100%;
   z-index: 44;
+  padding: 10px 0 4px;
 }
 .logo {
   max-width: 150px;
@@ -119,16 +119,10 @@ header {
 
 
 /* Navigation Settings */
-nav {
-  display: inline-block;
-  width: 100%;
-}
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -146,6 +140,19 @@ nav > ul > li > a:active {
 }
 nav > ul > li > a:visited {
   color: #096D94;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
 
 
@@ -166,7 +173,7 @@ nav > ul > li > a:visited {
   line-height: 2.4;
 }
 main {
-  padding-top: 160px;
+  padding-top: 80px;
   padding-bottom: 60px;
 }
 
@@ -251,6 +258,9 @@ footer {
     float: right;
     margin-top: 4px;
   }
+  nav > ul {
+  margin: 1em 0;
+  }
   main {
     padding-top: 110px;
   }
@@ -265,6 +275,18 @@ footer {
   }
   .logo {
     max-width: 200px;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+  .navtoggle li:last-child {
+  display: none;
+  }
+  main {
+    padding-top: 160px;
   }
 }
 @media only screen and (min-width: 1024px) {
