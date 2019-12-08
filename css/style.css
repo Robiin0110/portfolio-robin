@@ -192,15 +192,11 @@ main {
 
 /* Body Settings */
 .container {
-  padding: 0 30px;
+  padding: 0 15px;
+  width: 100%;
 }
 .row {
   margin: 25px 0;
-  content: "";
-  clear: both;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #work .row {
   padding-bottom: 35px;
@@ -284,6 +280,7 @@ footer {
   }
   [class*="col-"] {
   float: left;
+  padding: 20px;
   }
   .logo {
     max-width: 200px;
@@ -303,6 +300,11 @@ footer {
   .navtoggle.responsive li  {
   display: block;
   }
+  .row::after {
+   content: "";
+   clear: both;
+   display: table;
+   }
 }
 @media only screen and (min-width: 1024px) {
   .col-lg-7 {
