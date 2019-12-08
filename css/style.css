@@ -102,6 +102,16 @@ a:active {
   color: #096D94;
   border: 2px solid #096D94;
 }
+.disabled {
+  display: inline-block;
+  background-color: #DDDDDD;
+  color: #A5A5A5;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: none;
+}
 
 
 /* Header Settings */
